@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+     <section class="calc">
+        <form action="">
+            <input type="text" name="screen" class="screen">
+        
+        
+
+        <div class="buttons">
+
+            <input type="button" class="btn btn_yellow" value="*"  onclick="screen.value += '*' ">
+            <input type="button" class="btn btn_yellow" value="/"  onclick="screen.value += '/' ">
+            <input type="button" class="btn btn_yellow" value="-"  onclick="screen.value += '-' ">
+            <input type="button" class="btn btn_yellow" value="+"  onclick="screen.value += '+' ">
+
+            <input type="button" class="btn btn_green"  value="9" onclick="screen.value += '9' ">
+            <input type="button" class="btn btn_green"  value="8" onclick="screen.value += '8' ">
+            <input type="button" class="btn btn_green"  value="7" onclick="screen.value += '7' ">
+            <input type="button" class="btn btn_green"  value="6" onclick="screen.value += '6' ">
+            <input type="button" class="btn btn_green"  value="5" onclick="screen.value += '5' ">
+            <input type="button" class="btn btn_green"  value="4" onclick="screen.value += '4' ">
+            <input type="button" class="btn btn_green"  value="3" onclick="screen.value += '3' ">
+            <input type="button" class="btn btn_green"  value="2" onclick="screen.value += '2' ">
+            <input type="button" class="btn btn_green"  value="1" onclick="screen.value += '1' ">
+            <input type="button" class="btn btn_green"  value="0" onclick="screen.value += '0' ">
+            <input type="button" class="btn btn_green"  value="." onclick="screen.value += '.' ">
+
+            <input type="button" class="btn btn_green equal"  value="="  onclick="screen.value = eval(screen.value) ">
+            <input type="button" class="btn btn_red clear" value="AC"  onclick="screen.value = '' ">
+
+        </div>
+    </form>
+    </section>
+    <!-- <script src="calc.js"></script>  -->
+    
+
+</body>
+
+</html>
